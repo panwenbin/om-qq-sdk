@@ -1,0 +1,22 @@
+{
+    "name": "panwenbin/om-qq-sdk",
+    "description": "sdk for open.om.qq.com",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pan Wenbin",
+            "email": "panwenbin@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0.0",
+        "panwenbin/curl": "^0.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "panwenbin\\omqq\\": "src/"
+        }
+    }
+}
